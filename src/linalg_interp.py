@@ -105,8 +105,8 @@ def spline_function(xd, yd, order = 3):
 
     Returns
     -------
-    s{order} : function
-        Interpolating function
+    spline order : function
+        interpolating function
     """
 
     k_sort = np.argsort(xd) #sorted array of coefficents
